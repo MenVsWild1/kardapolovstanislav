@@ -1,0 +1,205 @@
+[
+  {
+    "caption": "За хорошие отношения не нужно бороться - им нужно соответствовать!",
+    "id": 6,
+    "kind": "photo",
+    "position": 0,
+    "url": "./uploads/6fad229f60e042bc818b48c86e30450f.webp"
+  },
+  {
+    "caption": "Костюм надеваю нечасто, но повод был хороший — Новый год.",
+    "id": 2,
+    "kind": "photo",
+    "position": 1,
+    "url": "./img/portrait-suit.webp"
+  },
+  {
+    "caption": "Рабочий день в офисе. Здесь решается то, что потом едет по дорогам.",
+    "id": 3,
+    "kind": "photo",
+    "position": 2,
+    "url": "./img/portrait-office.webp"
+  },
+  {
+    "caption": "Лето, улица, хорошее настроение. Юг в это время особенно хорош.",
+    "id": 4,
+    "kind": "photo",
+    "position": 3,
+    "url": "./img/summer-street.webp"
+  },
+  {
+    "caption": "В саду возле дома. Лучшее место, чтобы перевести дух после рабочей недели.",
+    "id": 5,
+    "kind": "photo",
+    "position": 4,
+    "url": "./img/summer-garden.webp"
+  },
+  {
+    "caption": "Вот такая классная компания",
+    "id": 7,
+    "kind": "photo",
+    "position": 5,
+    "url": "./uploads/b5d5ece1090e478081c3a72255c75ec3.webp"
+  },
+  {
+    "caption": "Да, я обожаю погружаться",
+    "id": 8,
+    "kind": "photo",
+    "position": 6,
+    "url": "./uploads/5e120706ce954f958d2c844ecdac85cc.webp"
+  },
+  {
+    "caption": "Как прекрасен подводный мир",
+    "id": 9,
+    "kind": "photo",
+    "position": 7,
+    "url": "./uploads/20b298c07ae648dc8f46b12ac5a644f5.webp"
+  },
+  {
+    "caption": "На мопеде проехал весь остров  в Тайланде",
+    "id": 10,
+    "kind": "photo",
+    "position": 8,
+    "url": "./uploads/be5b660e5f124140b9ae431df8f6b981.webp"
+  },
+  {
+    "caption": "По дорогам Турции только так",
+    "id": 11,
+    "kind": "photo",
+    "position": 9,
+    "url": "./uploads/9c8730ae19a049198bf963bfc01afad2.webp"
+  },
+  {
+    "caption": "Почти первая ракетка",
+    "id": 12,
+    "kind": "photo",
+    "position": 10,
+    "url": "./uploads/8f9b8d3433e24e42a3c2afbc575909dd.webp"
+  },
+  {
+    "caption": "Горные лыжи просто огонь",
+    "id": 13,
+    "kind": "photo",
+    "position": 11,
+    "url": "./uploads/2032ea452bec4d83911da599f4a54a40.webp"
+  },
+  {
+    "caption": "Тихая охота на шампиньоны",
+    "id": 14,
+    "kind": "photo",
+    "position": 12,
+    "url": "./uploads/20d40d4463e04e77bbd6ceaa091fd912.webp"
+  },
+  {
+    "caption": "Охотились на опят - теперь весь год с грибочками",
+    "id": 15,
+    "kind": "photo",
+    "position": 13,
+    "url": "./uploads/4174501211ac41e58731a2d833e87fa3.webp"
+  },
+  {
+    "caption": "Рыбалка в хорошей компании - это намного больше, чем просто поймать рыбу",
+    "id": 16,
+    "kind": "photo",
+    "position": 14,
+    "url": "./uploads/65e3d080885741a89813032b9911d75a.webp"
+  },
+  {
+    "caption": "Шашлыки на природе вкуснее",
+    "id": 17,
+    "kind": "photo",
+    "position": 15,
+    "url": "./uploads/dfffc706fe8f45c79a1d1ca744f02127.webp"
+  },
+  {
+    "caption": "Работа бывает не только офисной",
+    "id": 18,
+    "kind": "photo",
+    "position": 16,
+    "url": "./uploads/e5eb43699a0340de979ef3f59fbd1313.webp"
+  },
+  {
+    "caption": "Олимпийская стройка в самом разгаре",
+    "id": 19,
+    "kind": "photo",
+    "position": 17,
+    "url": "./uploads/9f55bcc2695b43e49f2334c9e4fb158a.webp"
+  },
+  {
+    "caption": "Олипиада в Сочи прошла на высшем уровне",
+    "id": 20,
+    "kind": "photo",
+    "position": 18,
+    "url": "./uploads/184c1969b8ba479ea27ee0a97bef01cf.webp"
+  },
+  {
+    "caption": "Отдых в отеле тоже нужно себе разрешать",
+    "id": 21,
+    "kind": "photo",
+    "position": 19,
+    "url": "./uploads/f352daefe0ed48999572f47490b5afd0.webp"
+  },
+  {
+    "caption": "Как будто весь отель для меня одного",
+    "id": 22,
+    "kind": "photo",
+    "position": 20,
+    "url": "./uploads/b656865daf454298b0a702c00c2d72f7.webp"
+  },
+  {
+    "caption": "Отдыхая в отелях замечал, что одежда садится на размер или даже на два",
+    "id": 23,
+    "kind": "photo",
+    "position": 21,
+    "url": "./uploads/663888c0fe604db8a810dfe8eda621f2.webp"
+  },
+  {
+    "caption": "Отель с шикарным видом",
+    "id": 24,
+    "kind": "photo",
+    "position": 22,
+    "url": "./uploads/f634cca502d446e388f08a0392931bec.webp"
+  },
+  {
+    "caption": "За штурвалом по морям и океанам",
+    "id": 25,
+    "kind": "photo",
+    "position": 23,
+    "url": "./uploads/83cf4ef85f7e48b4bbf323673631db5c.webp"
+  },
+  {
+    "caption": "Взяли курс в открытое море",
+    "id": 26,
+    "kind": "photo",
+    "position": 24,
+    "url": "./uploads/200d41ae51e249488de2140acfb24e9c.webp"
+  },
+  {
+    "caption": "Бороздим мировой океан",
+    "id": 27,
+    "kind": "photo",
+    "position": 25,
+    "url": "./uploads/a221130ccf4147eeb603d0ca3276d702.webp"
+  },
+  {
+    "caption": "Знойная пустыня Сахара",
+    "id": 28,
+    "kind": "photo",
+    "position": 26,
+    "url": "./uploads/e24635a0f12b4927a1c3202d5a91837d.webp"
+  },
+  {
+    "caption": "Оазис в Сахаре найден",
+    "id": 29,
+    "kind": "photo",
+    "position": 27,
+    "url": "./uploads/6baabaa44cc74630aeaaad9d4bd9ab9e.webp"
+  },
+  {
+    "caption": "Природу на плато Лагонаки в Адыгее невозможно описать словами - её нужно увидеть глазами",
+    "id": 30,
+    "kind": "photo",
+    "position": 28,
+    "url": "./uploads/8898d5e4197d4102a1f18fd008eb7f3e.webp"
+  }
+]

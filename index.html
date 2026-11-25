@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Станислав Кардаполов — предприниматель. Личный сайт</title>
+  <meta name="description" content="Личный сайт Станислава Кардаполова — предпринимателя из Ростовской области. Грузоперевозки, бизнес с 2014 года, блог о деле, мыслях и жизни.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Станислав Кардаполов — предприниматель. Личный сайт">
+  <meta property="og:description" content="Предприниматель, грузоперевозки, Ростовская область. Бизнес, блог, галерея и контакты.">
+  <meta property="og:image" content="./img/portrait-studio.webp">
+  <meta property="og:locale" content="ru_RU">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23121417'/%3E%3Crect x='6' y='6' width='52' height='52' rx='8' fill='none' stroke='%23c9a227' stroke-width='2'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='26' fill='%23e3c566' text-anchor='middle'%3E%D0%A1%D0%9A%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">
+        <span class="logo-mark" aria-hidden="true">СК</span>
+        <span class="logo-name" id="logo-name">Станислав Кардаполов</span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#home" data-tab="home">Главная</a>
+        <a href="#about" data-tab="about">Обо мне</a>
+        <a href="#business" data-tab="business">Бизнес</a>
+        <a href="#blog" data-tab="blog">Блог</a>
+        <a href="#gallery" data-tab="gallery">Галерея</a>
+        <a href="#contacts" data-tab="contacts">Контакты</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="gold-hairline" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+
+    <!-- ГЛАВНАЯ -->
+    <section class="tab" id="tab-home" hidden>
+      <div class="container">
+        <div class="hero">
+          <div class="hero-text">
+            <p class="overline" id="hero-overline">Предприниматель · Грузоперевозки · Ростовская область</p>
+            <h1 class="hero-title" id="hero-title">Станислав Кардаполов</h1>
+            <div class="gold-hairline short" aria-hidden="true"></div>
+            <p class="hero-subtitle" id="hero-subtitle"></p>
+            <blockquote class="hero-quote" id="hero-quote" hidden>
+              <span class="quote-mark" aria-hidden="true">«</span>
+              <span id="hero-quote-text"></span>
+            </blockquote>
+            <div class="hero-actions">
+              <a class="btn btn-gold" href="#about" id="hero-btn-about">Обо мне</a>
+              <a class="btn btn-ghost" href="#contacts" id="hero-btn-contacts">Связаться</a>
+            </div>
+          </div>
+          <div class="hero-photo-wrap">
+            <div class="hero-photo-frame" aria-hidden="true"></div>
+            <img class="hero-photo" id="hero-photo" src="./img/portrait-studio.webp" alt="Станислав Кардаполов — портрет">
+          </div>
+        </div>
+
+        <div class="gold-hairline section-divider" aria-hidden="true"></div>
+
+        <div class="home-cards" id="home-cards">
+          <a class="home-card reveal" href="#about">
+            <p class="overline">01</p>
+            <h3 id="home-card-about-title">Обо мне</h3>
+            <p class="home-card-text" id="home-card-about"></p>
+            <span class="home-card-link"><span id="home-card-about-link">Подробнее</span> <span aria-hidden="true">→</span></span>
+          </a>
+          <a class="home-card reveal" href="#business">
+            <p class="overline">02</p>
+            <h3 id="home-card-business-title">Бизнес</h3>
+            <p class="home-card-text" id="home-card-business"></p>
+            <span class="home-card-link"><span id="home-card-business-link">Подробнее</span> <span aria-hidden="true">→</span></span>
+          </a>
+          <a class="home-card reveal" href="#blog">
+            <p class="overline">03</p>
+            <h3 id="home-card-blog-title">Блог</h3>
+            <p class="home-card-text" id="home-card-blog"></p>
+            <span class="home-card-link"><span id="home-card-blog-link">Читать</span> <span aria-hidden="true">→</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ОБО МНЕ -->
+    <section class="tab" id="tab-about" hidden>
+      <div class="container">
+        <header class="section-head">
+          <p class="overline" id="about-overline">Личное</p>
+          <h2 id="about-heading">Обо мне</h2>
+          <div class="gold-hairline short" aria-hidden="true"></div>
+          <p class="section-intro" id="about-intro"></p>
+        </header>
+        <div class="blocks" id="about-blocks"></div>
+      </div>
+    </section>
+
+    <!-- БИЗНЕС -->
+    <section class="tab" id="tab-business" hidden>
+      <div class="container">
+        <header class="section-head">
+          <p class="overline" id="business-overline">Дело</p>
+          <h2 id="business-heading">Бизнес</h2>
+          <div class="gold-hairline short" aria-hidden="true"></div>
+          <p class="section-intro" id="business-intro"></p>
+        </header>
+        <div class="blocks" id="business-blocks"></div>
+      </div>
+    </section>
+
+    <!-- БЛОГ -->
+    <section class="tab" id="tab-blog" hidden>
+      <div class="container">
+
+        <div id="blog-list-view">
+          <header class="section-head">
+            <p class="overline" id="blog-overline">Записи</p>
+            <h2 id="blog-heading">Блог</h2>
+            <div class="gold-hairline short" aria-hidden="true"></div>
+            <p class="section-intro" id="blog-intro"></p>
+          </header>
+          <div class="rubrics" id="blog-rubrics" role="group" aria-label="Рубрики блога"></div>
+          <div class="post-grid" id="blog-grid"></div>
+          <p class="empty-note" id="blog-empty" hidden>Записей пока нет — загляните позже.</p>
+          <p class="loading-note" id="blog-loading" hidden>Загрузка…</p>
+          <div class="more-wrap">
+            <button class="btn btn-ghost" id="blog-more" hidden>Показать ещё</button>
+          </div>
+        </div>
+
+        <article id="blog-post-view" hidden>
+          <a class="back-link" href="#blog"><span aria-hidden="true">←</span> <span id="blog-back-label">Все записи</span></a>
+          <div id="post-body-wrap"></div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ГАЛЕРЕЯ -->
+    <section class="tab" id="tab-gallery" hidden>
+      <div class="container">
+        <header class="section-head">
+          <p class="overline" id="gallery-overline">Моменты</p>
+          <h2 id="gallery-heading">Галерея</h2>
+          <div class="gold-hairline short" aria-hidden="true"></div>
+          <p class="section-intro" id="gallery-intro"></p>
+        </header>
+        <div class="gallery-grid" id="gallery-grid"></div>
+        <p class="empty-note" id="gallery-empty" hidden>В галерее пока пусто.</p>
+        <p class="loading-note" id="gallery-loading" hidden>Загрузка…</p>
+      </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section class="tab" id="tab-contacts" hidden>
+      <div class="container">
+        <header class="section-head">
+          <p class="overline" id="contacts-overline">Связь</p>
+          <h2 id="contacts-heading">Контакты</h2>
+          <div class="gold-hairline short" aria-hidden="true"></div>
+          <p class="section-intro" id="contacts-intro"></p>
+        </header>
+        <div class="blocks" id="contacts-blocks"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="gold-hairline" aria-hidden="true"></div>
+    <div class="container footer-inner">
+      <p id="footer-text">© Станислав Кардаполов</p>
+      <a class="footer-top" href="#top" id="footer-top"><span id="footer-top-label">Наверх</span> <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <!-- Лайтбокс -->
+  <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Просмотр фотографии">
+    <button class="lb-close" id="lb-close" aria-label="Закрыть">×</button>
+    <button class="lb-prev" id="lb-prev" aria-label="Предыдущее фото">‹</button>
+    <figure class="lb-figure">
+      <img id="lb-img" src="" alt="">
+      <figcaption id="lb-caption"></figcaption>
+    </figure>
+    <button class="lb-next" id="lb-next" aria-label="Следующее фото">›</button>
+  </div>
+
+  <noscript>
+    <p style="text-align:center;padding:24px;color:#9a958c">Для просмотра сайта включите JavaScript в браузере.</p>
+  </noscript>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
